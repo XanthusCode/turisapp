@@ -106,7 +106,7 @@
 
      - `--all`: Muestra todos los commits accesibles desde cualquier rama, no solo desde la rama actual.
 
-     - `--pretty=format:"..."`: Define un formato personalizado para la salida del `git log`. En este caso, estamos utilizando varias secuencias de formato para mostrar diferentes partes del commit:
+     - `--format=format:"..."`: Define un formato personalizado para la salida del `git log`. En este caso, estamos utilizando varias secuencias de formato para mostrar diferentes partes del commit:
        
        
        el %c(auto)%h = genera una abreviación del has
