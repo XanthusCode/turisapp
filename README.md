@@ -86,7 +86,7 @@
    <u>*Comando:*</u>
 
    ```bash
-   git config --global alias.f "log --graph --abbrev-commit --decorate --format=format:'%C(auto)%h %d%C(red) %C(white)%s%C(reset)-%C(dim blue)-[%an]%C(reset)'"
+   git config --global alias.f "log --graph --abbrev-commit --decorate --format=format:'%C(auto)%h %C(red)%d %C(white)%s%C(reset)-%C(dim blue)-[%an]%C(reset)'"
    
    ```
 
