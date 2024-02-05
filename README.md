@@ -7,7 +7,7 @@
    <u>*Comando:*</u>
 
    ```bash
-   git config --global alias.lg 'log --graph --pretty=format:"%C(red)%h%Creset%C(yellow)%d%Creset %s %C(green)(%ar)%Creset" --abbrev-commit'
+   git config --global alias.lg 'log --graph --format=format:"%C(red)%h%Creset%C(yellow)%d%Creset %s %C(green)(%ar)%Creset" --abbrev-commit'
    ```
 
    <u>*Explicación de comando:*</u>
@@ -18,7 +18,7 @@
 
    - `--graph`: Esta opción de `git log` muestra una representación gráfica del historial de commits. La representación gráfica es útil para visualizar la estructura de ramificación y fusión en el repositorio.
 
-   - `--pretty=format:'...'`: Esta opción nos permite personalizar el formato de salida del `git log`. En este caso, estamos definiendo un formato personalizado para cómo se muestran los commits en la salida.
+   - `--format=format:'...'`: Esta opción nos permite personalizar el formato de salida del `git log`. En este caso, estamos definiendo un formato personalizado para cómo se muestran los commits en la salida.
 
    - `%C(red)`, `%C(yellow)`, `%C(green)`, `%Creset`: Estas secuencias de escape son utilizadas para cambiar el color del texto en la salida del `git log`. Por ejemplo, `%C(red)` establece el color rojo, `%C(yellow)` establece el color amarillo, `%C(green)` establece el color verde, y `%Creset` reinicia el color.
 
